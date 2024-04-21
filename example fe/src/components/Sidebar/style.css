@@ -1,0 +1,422 @@
+@font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/685a86e3efd026cd-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:900;
+    font-style:black;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/04ca08d0bf127403-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:700;
+    font-style:bold;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/6c3b16f6d0ef383f-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:500;
+    font-style:medium;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/333ab73b5541c2f6-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/54d173f197c29d93-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:300;
+    font-style:light;
+  } 
+  @font-face { 
+    font-family:__satoshi_Fallback_a12bc8;
+    src:local("Arial");
+    ascent-override:102.23%;
+    descent-override:24.29%;
+    line-gap-override:10.12%;
+    size-adjust:98.80%;
+  } 
+    body {  
+      line-height:inherit;
+      font-family:__satoshi_a12bc8,__satoshi_Fallback_a12bc8;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --tw-border-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-brightness:  brightness(.5); 
+      --tw-brightness:  brightness(20);  
+      --tw-border-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-border-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  .flex { 
+      display: flex;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal; 
+      font-variation-settings: normal;
+  } 
+  
+  .sticky { 
+      position: sticky;
+  } 
+  
+  .left-0 { 
+      left: 0;
+  } 
+  
+  .top-0 { 
+      top: 0;
+  } 
+  
+  .h-screen { 
+      height: 100vh;
+  } 
+  
+  .w-\[230px\] { 
+      width: 230px;
+  } 
+  
+  .flex-col { 
+      flex-direction: column;
+  } 
+  
+  .items-center { 
+      align-items: center;
+  } 
+  
+  .justify-between { 
+      justify-content: space-between;
+  } 
+  
+  .overflow-y-scroll { 
+      overflow-y: scroll;
+  } 
+  
+  .border-r { 
+      border-right-width: 1px;
+  } 
+  
+  .border-zinc-800 { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(39 39 42/var(--tw-border-opacity));
+  } 
+  
+  .px-6 { 
+      padding-left: 1.5rem; 
+      padding-right: 1.5rem;
+  } 
+  
+  .py-4 { 
+      padding-top: 1rem; 
+      padding-bottom: 1rem;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  .monitor ::-webkit-scrollbar { 
+      display: none;
+  } 
+  
+  .my-6 { 
+      margin-top: 1.5rem; 
+      margin-bottom: 1.5rem;
+  } 
+  
+  .justify-center { 
+      justify-content: center;
+  } 
+  
+  .gap-2 { 
+      gap: .5rem;
+  } 
+  
+  .mt-12 { 
+      margin-top: 3rem;
+  } 
+  
+  .gap-3 { 
+      gap: .75rem;
+  } 
+  
+  button { 
+      font-family: inherit; 
+      font-feature-settings: inherit; 
+      font-variation-settings: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  button { 
+      cursor: pointer;
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  .text-\[16px\] { 
+      font-size: 16px;
+  } 
+  
+  .leading-\[24px\] { 
+      line-height: 24px;
+  } 
+  
+  .text-zinc-400 { 
+      --tw-text-opacity: 1; 
+      color: rgb(161 161 170/var(--tw-text-opacity));
+  } 
+  
+  .text-\[12px\] { 
+      font-size: 12px;
+  } 
+  
+  .text-zinc-600 { 
+      --tw-text-opacity: 1; 
+      color: rgb(82 82 91/var(--tw-text-opacity));
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  h1 { 
+      font-size: inherit; 
+      font-weight: inherit;
+  } 
+  
+  h1 { 
+      margin: 0;
+  } 
+  
+  .text-\[18px\] { 
+      font-size: 18px;
+  } 
+  
+  .font-\[600\] { 
+      font-weight: 600;
+  } 
+  
+  .leading-\[28px\] { 
+      line-height: 28px;
+  } 
+  
+  .text-\[\#D4D4D8\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(212 212 216/var(--tw-text-opacity));
+  } 
+  
+  .mt-3 { 
+      margin-top: .75rem;
+  } 
+  
+  .brightness-50 { 
+      --tw-brightness: brightness(.5);
+  } 
+  
+  .brightness-50 { 
+      filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  } 
+  
+  .hover\:brightness-\[20\]:hover { 
+      --tw-brightness: brightness(20); 
+      filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  } 
+  
+  .m-0 { 
+      margin: 0;
+  } 
+  
+  .p-0 { 
+      padding: 0;
+  } 
+  
+  a { 
+      color: inherit; 
+      text-decoration: inherit;
+  } 
+  
+  .border-l-\[2px\] { 
+      border-left-width: 2px;
+  } 
+  
+  .border-transparent { 
+      border-color: transparent;
+  } 
+  
+  .px-2 { 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .py-3 { 
+      padding-top: .75rem; 
+      padding-bottom: .75rem;
+  } 
+  
+  .pl-3 { 
+      padding-left: .75rem;
+  } 
+  
+  .transition-all { 
+      transition-property: all; 
+      transition-timing-function: cubic-bezier(.4,0,.2,1); 
+      transition-duration: .15s;
+  } 
+  
+  .ease-in { 
+      transition-timing-function: cubic-bezier(.4,0,1,1);
+  } 
+  
+  .ease-in { 
+      animation-timing-function: cubic-bezier(.4,0,1,1);
+  } 
+  
+  .hover\:border-l-\[2px\]:hover { 
+      border-left-width: 2px;
+  } 
+  
+  .hover\:border-blue-600:hover { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(37 99 235/var(--tw-border-opacity));
+  } 
+  
+  .hover\:bg-zinc-900:hover { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(24 24 27/var(--tw-bg-opacity));
+  } 
+  
+  .font-\[400\] { 
+      font-weight: 400;
+  } 
+  
+  .text-zinc-200 { 
+      --tw-text-opacity: 1; 
+      color: rgb(228 228 231/var(--tw-text-opacity));
+  } 
+  
+  .border-blue-600 { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(37 99 235/var(--tw-border-opacity));
+  } 
+  
+  .bg-zinc-900 { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(24 24 27/var(--tw-bg-opacity));
+  } 
+  
+  .overflow-hidden { 
+      overflow: hidden;
+  } 
+  
+  .cursor-pointer { 
+      cursor: pointer;
+  } 
+  
+  .text-zinc-500 { 
+      --tw-text-opacity: 1; 
+      color: rgb(113 113 122/var(--tw-text-opacity));
+  } 
+  
+  .text-white { 
+      --tw-text-opacity: 1; 
+      color: rgb(255 255 255/var(--tw-text-opacity));
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-xismm.style-xismm {  
+     width: 230px;  
+  }  
+  #style-D4CTT.style-D4CTT {  
+     color: transparent;  
+  }  
+  #style-FtbRx.style-FtbRx {  
+     transform: none;  
+  }  
+  #style-7p8JI.style-7p8JI {  
+     color: transparent;  
+  }  
+  #style-X7s1B.style-X7s1B {  
+     transform: none;  
+  }  
+  #style-oevnE.style-oevnE {  
+     transform: none;  
+  }  
+  #style-ZWVWx.style-ZWVWx {  
+     color: transparent;  
+      filter: invert(100%) brightness(1000%) contrast(100%);  
+  }  
+  #style-YkyWt.style-YkyWt {  
+     transform: none;  
+  }  
+  #style-WtsQ1.style-WtsQ1 {  
+     color: transparent;  
+  }  
+  #style-T9RU2.style-T9RU2 {  
+     transform: none;  
+  }  
+  #style-pMDAX.style-pMDAX {  
+     transform: none;  
+  }  
+  #style-Sfr6l.style-Sfr6l {  
+     transform: none;  
+  }  
+  #style-cWCPU.style-cWCPU {  
+     transform: none;  
+  }  
+  

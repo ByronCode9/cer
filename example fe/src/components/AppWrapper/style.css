@@ -1,0 +1,25 @@
+.layout-appwrapper{
+
+}
+
+
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .layout-appwrapper{
+        margin-left: 0px !important;
+    } 
+    .sidebar-appwrapper{
+        display: none !important;
+    }  
+  }
+  
+  /* For screens between 768px and 992px */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles here will apply to screens between 768px and 992px */
+  }
+  
+  /* For screens larger than 992px */
+  @media only screen and (min-width: 992px) {
+    /* Styles here will apply to screens larger than 992px */
+  }
+  

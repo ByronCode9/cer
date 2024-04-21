@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.172f286f.css",
+    "main.js": "/static/js/main.44eef76d.js",
+    "static/js/453.05fb9ac9.chunk.js": "/static/js/453.05fb9ac9.chunk.js",
+    "static/media/audit-token.png": "/static/media/audit-token.664af6fdaed727c27c88.png",
+    "static/media/token-default.svg": "/static/media/token-default.b92f1469a8c81d0b946016ae0f9635cd.svg",
+    "static/media/attacks.svg": "/static/media/attacks.0843ccff43349e5f88e8e09ff8a42bd4.svg",
+    "static/media/watchdog.svg": "/static/media/watchdog.4496613d8a9cdb46d60d148c4efd31ed.svg",
+    "static/media/token.svg": "/static/media/token.06106fb1e6c55379f2a90e04df89361a.svg",
+    "static/media/reports.svg": "/static/media/reports.912181dfa7792407ce08d24ede5f751d.svg",
+    "static/media/bounty.svg": "/static/media/bounty.e50c201f7758d732ce189eef37e5bcce.svg",
+    "static/media/code.svg": "/static/media/code.521d76fed856c8cd61285a695fe3a365.svg",
+    "index.html": "/index.html",
+    "static/media/dashboard.svg": "/static/media/dashboard.c115987260f082f83923535eb3fd7367.svg",
+    "static/media/analytics.svg": "/static/media/analytics.aea6b29485148e6e0ac492f926fd2387.svg",
+    "main.172f286f.css.map": "/static/css/main.172f286f.css.map",
+    "main.44eef76d.js.map": "/static/js/main.44eef76d.js.map",
+    "453.05fb9ac9.chunk.js.map": "/static/js/453.05fb9ac9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.172f286f.css",
+    "static/js/main.44eef76d.js"
+  ]
+}

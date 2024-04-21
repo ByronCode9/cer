@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   #scroll-hidden::-webkit-scrollbar {
+      display: none;
+   }
+   a,
+   .anchor-element {
+      color: rgb(148 163 184);
+   }
+   .active {
+      color: white;
+      font-weight: 500;
+   }
+}

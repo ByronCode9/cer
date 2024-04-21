@@ -1,0 +1,712 @@
+
+
+
+  .wrapper-body{
+    display: flex !important;
+    justify-content: center !important;
+    width: 70vw;
+    align-items: center;
+
+  }
+
+
+
+
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/685a86e3efd026cd-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:900;
+    font-style:black;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/04ca08d0bf127403-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:700;
+    font-style:bold;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/6c3b16f6d0ef383f-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:500;
+    font-style:medium;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/333ab73b5541c2f6-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/54d173f197c29d93-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:300;
+    font-style:light;
+  } 
+  @font-face { 
+    font-family:__satoshi_Fallback_a12bc8;
+    src:local("Arial");
+    ascent-override:102.23%;
+    descent-override:24.29%;
+    line-gap-override:10.12%;
+    size-adjust:98.80%;
+  } 
+ 
+  
+ 
+
+  
+  .w-\[90\%\] { 
+      width: 90%;
+  } 
+  
+  .flex-col { 
+      flex-direction: column;
+  } 
+  
+  .gap-8 { 
+      gap: 2rem;
+  } 
+  
+  @media (min-width: 768px){ 
+    .md\:w-\[80\%\] { 
+      width: 80%;
+    } 
+  }     
+  
+  .overflow-auto { 
+      overflow: auto;
+  } 
+  
+  table { 
+      text-indent: 0; 
+      border-color: inherit; 
+      border-collapse: collapse;
+  } 
+  
+  .caption-bottom { 
+      caption-side: bottom;
+  } 
+  
+  .text-sm { 
+      font-size: .875rem; 
+      line-height: 1.25rem;
+  } 
+  
+  .bg-\[\#0D0D0D\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(13 13 13/var(--tw-bg-opacity));
+  } 
+  
+  .bg-\[\#151515\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(21 21 21/var(--tw-bg-opacity));
+  } 
+  
+  .border-b { 
+      border-bottom-width: 1px;
+  } 
+  
+  .transition-colors { 
+      transition-property: color,background-color,border-color,text-decoration-color,fill,stroke; 
+      transition-timing-function: cubic-bezier(.4,0,.2,1); 
+      transition-duration: .15s;
+  } 
+  
+  .\[\&_tr\]\:border-b tr  { 
+      border-bottom-width: 1px;
+  } 
+  
+  .border-\[\#262626\] { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(38 38 38/var(--tw-border-opacity));
+  } 
+  
+  .hover\:bg-zinc-100\/50:hover { 
+      background-color: hsla(240,5%,96%,.5);
+  } 
+  
+  :is(.dark .dark\:hover\:bg-zinc-800\/50:hover) { 
+      background-color: rgba(39,39,42,.5);
+  } 
+  
+  .\[\&_tr\:last-child\]\:border-0 tr:last-child  { 
+      border-width: 0;
+  } 
+  
+  .h-12 { 
+      height: 3rem;
+  } 
+  
+  .px-4 { 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+  } 
+  
+  .text-left { 
+      text-align: left;
+  } 
+  
+  .align-middle { 
+      vertical-align: middle;
+  } 
+  
+  .font-medium { 
+      font-weight: 500;
+  } 
+  
+  .text-zinc-500 { 
+      --tw-text-opacity: 1; 
+      color: rgb(113 113 122/var(--tw-text-opacity));
+  } 
+  
+  :is(.dark .dark\:text-zinc-400) { 
+      --tw-text-opacity: 1; 
+      color: rgb(161 161 170/var(--tw-text-opacity));
+  } 
+  
+  .p-4 { 
+      padding: 1rem;
+  } 
+  
+  .text-\[12px\] { 
+      font-size: 12px;
+  } 
+  
+  .font-\[400\] { 
+      font-weight: 400;
+  } 
+  
+  .text-zinc-100 { 
+      --tw-text-opacity: 1; 
+      color: rgb(244 244 245/var(--tw-text-opacity));
+  } 
+  
+  .items-center { 
+      align-items: center;
+  } 
+  
+  .gap-1 { 
+      gap: .25rem;
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  .rounded-full { 
+      border-radius: 9999px;
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  .uppercase { 
+      text-transform: uppercase;
+  } 
+  
+  .text-blue-400 { 
+      --tw-text-opacity: 1; 
+      color: rgb(96 165 250/var(--tw-text-opacity));
+  } 
+  
+
+
+  
+  .gap-2 { 
+      gap: .5rem;
+  } 
+  
+  
+  .text-zinc-200 { 
+      --tw-text-opacity: 1; 
+      color: rgb(228 228 231/var(--tw-text-opacity));
+  } 
+  
+  .h-\[20px\] { 
+      height: 20px;
+  } 
+  
+  .min-w-\[300px\] { 
+      min-width: 300px;
+  } 
+  
+  .bg-\[\#353535\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(53 53 53/var(--tw-bg-opacity));
+  } 
+  
+  .bg-\[\#0096B7\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(0 150 183/var(--tw-bg-opacity));
+  } 
+  
+  .bg-\[\#D49900\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(212 153 0/var(--tw-bg-opacity));
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-DY4gL.style-DY4gL {  
+     color: transparent;  
+  }  
+  #style-WI1X5.style-WI1X5 {  
+     width: 100%;  
+  }  
+  #style-avYiA.style-avYiA {  
+     width: 0%;  
+  }  
+  #style-rjoro.style-rjoro {  
+     width: 0%;  
+  }  
+  #style-LGbcc.style-LGbcc {  
+     color: transparent;  
+  }  
+  #style-MEAOj.style-MEAOj {  
+     width: 100%;  
+  }  
+  #style-KPsVK.style-KPsVK {  
+     width: 0%;  
+  }  
+  #style-nKqtX.style-nKqtX {  
+     width: 0%;  
+  }  
+  #style-r6mjy.style-r6mjy {  
+     color: transparent;  
+  }  
+  #style-GlS8M.style-GlS8M {  
+     width: 100%;  
+  }  
+  #style-6nK47.style-6nK47 {  
+     width: 0%;  
+  }  
+  #style-G8x9F.style-G8x9F {  
+     width: 0%;  
+  }  
+  #style-77441.style-77441 {  
+     color: transparent;  
+  }  
+  #style-fX6j7.style-fX6j7 {  
+     width: 100%;  
+  }  
+  #style-hRxOQ.style-hRxOQ {  
+     width: 0%;  
+  }  
+  #style-BFjlN.style-BFjlN {  
+     width: 0%;  
+  }  
+  #style-nRTwD.style-nRTwD {  
+     color: transparent;  
+  }  
+  #style-nmdGF.style-nmdGF {  
+     width: 100%;  
+  }  
+  #style-ojd6k.style-ojd6k {  
+     width: 0%;  
+  }  
+  #style-D6EEj.style-D6EEj {  
+     width: 0%;  
+  }  
+  #style-UyOph.style-UyOph {  
+     color: transparent;  
+  }  
+  #style-I1d9W.style-I1d9W {  
+     color: transparent;  
+  }  
+  #style-LB74g.style-LB74g {  
+     width: 100%;  
+  }  
+  #style-HHjro.style-HHjro {  
+     width: 0%;  
+  }  
+  #style-bDEbd.style-bDEbd {  
+     width: 0%;  
+  }  
+  #style-KXB6J.style-KXB6J {  
+     color: transparent;  
+  }  
+  #style-ZTUJY.style-ZTUJY {  
+     color: transparent;  
+  }  
+  #style-SCor3.style-SCor3 {  
+     width: 100%;  
+  }  
+  #style-eWjKs.style-eWjKs {  
+     width: 0%;  
+  }  
+  #style-LJkZi.style-LJkZi {  
+     width: 0%;  
+  }  
+  #style-m6DVU.style-m6DVU {  
+     color: transparent;  
+  }  
+  #style-6WoW5.style-6WoW5 {  
+     width: 100%;  
+  }  
+  #style-SqSBt.style-SqSBt {  
+     width: 0%;  
+  }  
+  #style-kZdF2.style-kZdF2 {  
+     width: 0%;  
+  }  
+  #style-OK8tS.style-OK8tS {  
+     color: transparent;  
+  }  
+  #style-XaLoU.style-XaLoU {  
+     width: 100%;  
+  }  
+  #style-HjA7w.style-HjA7w {  
+     width: 0%;  
+  }  
+  #style-V3JBl.style-V3JBl {  
+     width: 0%;  
+  }  
+  #style-EoxPg.style-EoxPg {  
+     color: transparent;  
+  }  
+  #style-IOhYF.style-IOhYF {  
+     color: transparent;  
+  }  
+  #style-zKzM6.style-zKzM6 {  
+     width: 100%;  
+  }  
+  #style-H6Z6w.style-H6Z6w {  
+     width: 0%;  
+  }  
+  #style-I9ivv.style-I9ivv {  
+     width: 0%;  
+  }  
+  #style-oVEOH.style-oVEOH {  
+     color: transparent;  
+  }  
+  #style-o5ohe.style-o5ohe {  
+     width: 100%;  
+  }  
+  #style-dstkH.style-dstkH {  
+     width: 0%;  
+  }  
+  #style-4bUcz.style-4bUcz {  
+     width: 0%;  
+  }  
+  #style-bSXOY.style-bSXOY {  
+     color: transparent;  
+  }  
+  #style-YgJDq.style-YgJDq {  
+     color: transparent;  
+  }  
+  #style-V4y9k.style-V4y9k {  
+     width: 100%;  
+  }  
+  #style-XRotd.style-XRotd {  
+     width: 0%;  
+  }  
+  #style-bOUiN.style-bOUiN {  
+     width: 0%;  
+  }  
+  #style-zCNFa.style-zCNFa {  
+     color: transparent;  
+  }  
+  #style-w1UyR.style-w1UyR {  
+     color: transparent;  
+  }  
+  #style-E8P1g.style-E8P1g {  
+     width: 100%;  
+  }  
+  #style-bxooA.style-bxooA {  
+     width: 0%;  
+  }  
+  #style-FG4G6.style-FG4G6 {  
+     width: 0%;  
+  }  
+  #style-lex9h.style-lex9h {  
+     color: transparent;  
+  }  
+  #style-evxyR.style-evxyR {  
+     color: transparent;  
+  }  
+  #style-1kTpU.style-1kTpU {  
+     width: 100%;  
+  }  
+  #style-Wwn6E.style-Wwn6E {  
+     width: 0%;  
+  }  
+  #style-JYSn3.style-JYSn3 {  
+     width: 0%;  
+  }  
+  #style-yO1oy.style-yO1oy {  
+     color: transparent;  
+  }  
+  #style-oDx2X.style-oDx2X {  
+     width: 100%;  
+  }  
+  #style-hUP6T.style-hUP6T {  
+     width: 0%;  
+  }  
+  #style-rBgjn.style-rBgjn {  
+     width: 0%;  
+  }  
+  #style-nRXeU.style-nRXeU {  
+     color: transparent;  
+  }  
+  #style-v3oia.style-v3oia {  
+     width: 100%;  
+  }  
+  #style-W4pNo.style-W4pNo {  
+     width: 0%;  
+  }  
+  #style-Aic5x.style-Aic5x {  
+     width: 0%;  
+  }  
+  #style-1Zfqp.style-1Zfqp {  
+     color: transparent;  
+  }  
+  #style-3Xbei.style-3Xbei {  
+     width: 100%;  
+  }  
+  #style-WqVol.style-WqVol {  
+     width: 0%;  
+  }  
+  #style-Wphcc.style-Wphcc {  
+     width: 0%;  
+  }  
+  #style-Jzwc7.style-Jzwc7 {  
+     color: transparent;  
+  }  
+  #style-emwwD.style-emwwD {  
+     width: 100%;  
+  }  
+  #style-FolLW.style-FolLW {  
+     width: 0%;  
+  }  
+  #style-mEaVO.style-mEaVO {  
+     width: 0%;  
+  }  
+  #style-2QrQ2.style-2QrQ2 {  
+     color: transparent;  
+  }  
+  #style-SjqdI.style-SjqdI {  
+     width: 100%;  
+  }  
+  #style-PCjOd.style-PCjOd {  
+     width: 0%;  
+  }  
+  #style-GJN7r.style-GJN7r {  
+     width: 0%;  
+  }  
+  #style-jr9AC.style-jr9AC {  
+     color: transparent;  
+  }  
+  #style-tln3t.style-tln3t {  
+     width: 0%;  
+  }  
+  #style-yvKOo.style-yvKOo {  
+     width: 0%;  
+  }  
+  #style-Rwd2R.style-Rwd2R {  
+     width: 100%;  
+  }  
+  #style-QZ54K.style-QZ54K {  
+     color: transparent;  
+  }  
+  #style-9HFoP.style-9HFoP {  
+     width: 100%;  
+  }  
+  #style-mkjqa.style-mkjqa {  
+     width: 0%;  
+  }  
+  #style-gCF7l.style-gCF7l {  
+     width: 0%;  
+  }  
+  #style-OTP15.style-OTP15 {  
+     color: transparent;  
+  }  
+  #style-r1kPY.style-r1kPY {  
+     width: 100%;  
+  }  
+  #style-XoT8P.style-XoT8P {  
+     width: 0%;  
+  }  
+  #style-BL1Yq.style-BL1Yq {  
+     width: 0%;  
+  }  
+  #style-EGv9Y.style-EGv9Y {  
+     color: transparent;  
+  }  
+  #style-nozzk.style-nozzk {  
+     width: 100%;  
+  }  
+  #style-jm5VO.style-jm5VO {  
+     width: 0%;  
+  }  
+  #style-5hzlr.style-5hzlr {  
+     width: 0%;  
+  }  
+  #style-6UGOM.style-6UGOM {  
+     color: transparent;  
+  }  
+  #style-EsWgC.style-EsWgC {  
+     width: 100%;  
+  }  
+  #style-qDNfw.style-qDNfw {  
+     width: 0%;  
+  }  
+  #style-81eBH.style-81eBH {  
+     width: 0%;  
+  }  
+  #style-FoUo3.style-FoUo3 {  
+     color: transparent;  
+  }  
+  #style-BYvGI.style-BYvGI {  
+     width: 100%;  
+  }  
+  #style-3IKKn.style-3IKKn {  
+     width: 0%;  
+  }  
+  #style-1zFij.style-1zFij {  
+     width: 0%;  
+  }  
+  #style-5l6dA.style-5l6dA {  
+     color: transparent;  
+  }  
+  #style-H91CC.style-H91CC {  
+     width: 100%;  
+  }  
+  #style-hnVMf.style-hnVMf {  
+     width: 0%;  
+  }  
+  #style-LlqKA.style-LlqKA {  
+     width: 0%;  
+  }  
+  #style-kOa4F.style-kOa4F {  
+     color: transparent;  
+  }  
+  #style-y32tz.style-y32tz {  
+     width: 100%;  
+  }  
+  #style-88poY.style-88poY {  
+     width: 0%;  
+  }  
+  #style-WCAjQ.style-WCAjQ {  
+     width: 0%;  
+  }  
+  #style-Q5F8x.style-Q5F8x {  
+     color: transparent;  
+  }  
+  #style-8RgFl.style-8RgFl {  
+     width: 0%;  
+  }  
+  #style-RdT2o.style-RdT2o {  
+     width: 0%;  
+  }  
+  #style-OzBwp.style-OzBwp {  
+     width: 100%;  
+  }  
+  #style-2yDKU.style-2yDKU {  
+     color: transparent;  
+  }  
+  #style-QHmsR.style-QHmsR {  
+     width: 100%;  
+  }  
+  #style-AXYcH.style-AXYcH {  
+     width: 0%;  
+  }  
+  #style-XzD94.style-XzD94 {  
+     width: 0%;  
+  }  
+  #style-FhAZg.style-FhAZg {  
+     color: transparent;  
+  }  
+  #style-BjcpZ.style-BjcpZ {  
+     width: 100%;  
+  }  
+  #style-LQpiS.style-LQpiS {  
+     width: 0%;  
+  }  
+  #style-TQWye.style-TQWye {  
+     width: 0%;  
+  }  
+  #style-YjXAh.style-YjXAh {  
+     color: transparent;  
+  }  
+  #style-IMipt.style-IMipt {  
+     width: 100%;  
+  }  
+  #style-K5Yxa.style-K5Yxa {  
+     width: 0%;  
+  }  
+  #style-pJ5dm.style-pJ5dm {  
+     width: 0%;  
+  }  
+  #style-O1QZX.style-O1QZX {  
+     color: transparent;  
+  }  
+  #style-kyYim.style-kyYim {  
+     width: 100%;  
+  }  
+  #style-NfxkT.style-NfxkT {  
+     width: 0%;  
+  }  
+  #style-iO5JE.style-iO5JE {  
+     width: 0%;  
+  }  
+  #style-cmxWR.style-cmxWR {  
+     color: transparent;  
+  }  
+  #style-clh2g.style-clh2g {  
+     width: 100%;  
+  }  
+  #style-iPEUP.style-iPEUP {  
+     width: 0%;  
+  }  
+  #style-oFBvj.style-oFBvj {  
+     width: 0%;  
+  }  
+  #style-9mXoU.style-9mXoU {  
+     color: transparent;  
+  }  
+  #style-sg3Ca.style-sg3Ca {  
+     width: 100%;  
+  }  
+  #style-3zKLI.style-3zKLI {  
+     width: 0%;  
+  }  
+  #style-51qLh.style-51qLh {  
+     width: 0%;  
+  }  
+  #style-4lhYl.style-4lhYl {  
+     color: transparent;  
+  }  
+  #style-zZVk1.style-zZVk1 {  
+     width: 100%;  
+  }  
+  #style-3AvEO.style-3AvEO {  
+     width: 0%;  
+  }  
+  #style-kRHrc.style-kRHrc {  
+     width: 0%;  
+  }  
+  #style-zfY9o.style-zfY9o {  
+     color: transparent;  
+  }  
+  #style-Vn2pe.style-Vn2pe {  
+     width: 100%;  
+  }  
+  #style-rg77h.style-rg77h {  
+     width: 0%;  
+  }  
+  #style-EQPXS.style-EQPXS {  
+     width: 0%;  
+  }  
+  

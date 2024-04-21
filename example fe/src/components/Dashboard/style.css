@@ -1,0 +1,29 @@
+.menu-class ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.ant-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+}
+.ant-menu li:hover {
+  background-color: #18181b !important;
+}
+.ant-menu-item-selected {
+  background-color: #18181b !important;
+}
+
+.ant-menu-sub  {
+  background-color: black !important;
+}
+
+
+
+
+
+

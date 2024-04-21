@@ -1,0 +1,87 @@
+.token-wrapper {
+  background-image: url(../../../assets/audit-token.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 25vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+}
+
+.main-wrapper {
+  /* height: 30vh; */
+}
+
+.form-class {
+  /* margin-top: 30px; */
+}
+
+.input-class {
+  width: 25vw;
+  margin-top: 50px;
+  border: none !important;
+}
+
+.submit-class {
+  width: 25vw;
+  background-color: #121f31;
+  padding: 9px 0 9px 0;
+}
+
+/* Mobile screens (up to 767px) */
+@media only screen and (max-width: 767px) {
+  /* CSS rules for mobile screens */
+  .wrapper {
+    width: 100% !important;
+  }
+  .input-class {
+    width: 100% !important;
+  }
+  .submit-class {
+    width: 100% !important;
+  }
+  .canncel-btn-audit {
+    display: none !important;
+  }
+  .quick-audit-main-desktop{
+    display: none !important;
+  }
+}
+
+/* Tablet screens (768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for tablet screens */
+  .wrapper {
+    width: 100% !important;
+  }
+  .input-class {
+    width: 100% !important;
+  }
+  .submit-class {
+    width: 100% !important;
+  }
+  .canncel-btn-audit {
+    display: none !important;
+  }
+  .quick-audit-main-desktop{
+    display: none !important;
+  }
+}
+
+/* Desktop screens (1024px and above) */
+@media only screen and (min-width: 1024px) {
+  /* CSS rules for desktop screens */
+  .canncel-btn-audit-mob{
+    display: none !important;
+    align-items: end !important;
+  }
+  .quick-audit-main-mob{
+    display: none !important;
+  }
+}

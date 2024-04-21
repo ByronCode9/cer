@@ -1,0 +1,475 @@
+@font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/685a86e3efd026cd-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:900;
+    font-style:black;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/04ca08d0bf127403-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:700;
+    font-style:bold;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/6c3b16f6d0ef383f-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:500;
+    font-style:medium;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/333ab73b5541c2f6-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/54d173f197c29d93-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:300;
+    font-style:light;
+  } 
+  @font-face { 
+    font-family:__satoshi_Fallback_a12bc8;
+    src:local("Arial");
+    ascent-override:102.23%;
+    descent-override:24.29%;
+    line-gap-override:10.12%;
+    size-adjust:98.80%;
+  } 
+    body {  
+      line-height:inherit;
+      font-family:__satoshi_a12bc8,__satoshi_Fallback_a12bc8;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --tw-translate-x:  0;  
+      --tw-translate-y:  0;  
+      --tw-rotate:  0;  
+      --tw-skew-x:  0;  
+      --tw-skew-y:  0;  
+      --tw-scale-x:  1;  
+      --tw-scale-y:  1;  
+      --tw-translate-x:  0;  
+      --tw-translate-y:  0;  
+      --tw-rotate:  0;  
+      --tw-skew-x:  0;  
+      --tw-skew-y:  0;  
+      --tw-scale-x:  1;  
+      --tw-scale-y:  1;  
+      --tw-translate-x:  0;  
+      --tw-translate-y:  0;  
+      --tw-rotate:  0;  
+      --tw-skew-x:  0;  
+      --tw-skew-y:  0;  
+      --tw-scale-x:  1;  
+      --tw-scale-y:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-translate-y:  -1px; 
+      --tw-border-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-border-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  * { 
+      --tw-translate-x: 0; 
+      --tw-translate-y: 0; 
+      --tw-rotate: 0; 
+      --tw-skew-x: 0; 
+      --tw-skew-y: 0; 
+      --tw-scale-x: 1; 
+      --tw-scale-y: 1; 
+  } 
+  
+  .h-full { 
+      height: 100%;
+  } 
+  
+  @media (min-width: 768px){ 
+    .md\:hidden { 
+      display: none;
+    } 
+  }     
+  
+  .flex { 
+      display: flex;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal; 
+      font-variation-settings: normal;
+  } 
+  
+  .w-\[100vw\] { 
+      width: 100vw;
+  } 
+  
+  .flex-col { 
+      flex-direction: column;
+  } 
+  
+  .justify-between { 
+      justify-content: space-between;
+  } 
+  
+  .p-8 { 
+      padding: 2rem;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  *,:after,:before { 
+      --tw-translate-x: 0; 
+      --tw-translate-y: 0; 
+      --tw-rotate: 0; 
+      --tw-skew-x: 0; 
+      --tw-skew-y: 0; 
+      --tw-scale-x: 1; 
+      --tw-scale-y: 1; 
+  } 
+  
+  :backdrop { 
+      --tw-translate-x: 0; 
+      --tw-translate-y: 0; 
+      --tw-rotate: 0; 
+      --tw-skew-x: 0; 
+      --tw-skew-y: 0; 
+      --tw-scale-x: 1; 
+      --tw-scale-y: 1; 
+  } 
+  
+  .items-center { 
+      align-items: center;
+  } 
+  
+  .justify-center { 
+      justify-content: center;
+  } 
+  
+  .gap-2 { 
+      gap: .5rem;
+  } 
+  
+  .grid { 
+      display: grid;
+  } 
+  
+  .grid-cols-2 { 
+      grid-template-columns: repeat(2,minmax(0,1fr));
+  } 
+  
+  .gap-6 { 
+      gap: 1.5rem;
+  } 
+  
+  .px-24 { 
+      padding-left: 6rem; 
+      padding-right: 6rem;
+  } 
+  
+  .w-full { 
+      width: 100%;
+  } 
+  
+  .gap-3 { 
+      gap: .75rem;
+  } 
+  
+  button { 
+      font-family: inherit; 
+      font-feature-settings: inherit; 
+      font-variation-settings: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      cursor: pointer;
+  } 
+  
+  [type="button"],button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  .mt-12 { 
+      margin-top: 3rem;
+  } 
+  
+  .bg-\[\#0E76FD\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(14 118 253/var(--tw-bg-opacity));
+  } 
+  
+  .py-3 { 
+      padding-top: .75rem; 
+      padding-bottom: .75rem;
+  } 
+  
+  .font-\[300\] { 
+      font-weight: 300;
+  } 
+  
+  .text-white { 
+      --tw-text-opacity: 1; 
+      color: rgb(255 255 255/var(--tw-text-opacity));
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  .text-\[16px\] { 
+      font-size: 16px;
+  } 
+  
+  .leading-\[24px\] { 
+      line-height: 24px;
+  } 
+  
+  .text-zinc-400 { 
+      --tw-text-opacity: 1; 
+      color: rgb(161 161 170/var(--tw-text-opacity));
+  } 
+  
+  .text-\[12px\] { 
+      font-size: 12px;
+  } 
+  
+  .text-zinc-600 { 
+      --tw-text-opacity: 1; 
+      color: rgb(82 82 91/var(--tw-text-opacity));
+  } 
+  
+  .col-span-2 { 
+      grid-column: span 2/span 2;
+  } 
+  
+  .mb-3 { 
+      margin-bottom: .75rem;
+  } 
+  
+  .rounded-\[4px\] { 
+      border-radius: 4px;
+  } 
+  
+  .bg-zinc-800 { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(39 39 42/var(--tw-bg-opacity));
+  } 
+  
+  .p-3 { 
+      padding: .75rem;
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  .-translate-y-\[1px\] { 
+      transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  } 
+  
+  .-translate-y-\[1px\] { 
+      --tw-translate-y: -1px;
+  } 
+  
+  .m-0 { 
+      margin: 0;
+  } 
+  
+  .p-0 { 
+      padding: 0;
+  } 
+  
+  a { 
+      color: inherit; 
+      text-decoration: inherit;
+  } 
+  
+  .border-l-\[2px\] { 
+      border-left-width: 2px;
+  } 
+  
+  .border-transparent { 
+      border-color: transparent;
+  } 
+  
+  .px-2 { 
+      padding-left: .5rem; 
+      padding-right: .5rem;
+  } 
+  
+  .pl-3 { 
+      padding-left: .75rem;
+  } 
+  
+  .transition-all { 
+      transition-property: all; 
+      transition-timing-function: cubic-bezier(.4,0,.2,1); 
+      transition-duration: .15s;
+  } 
+  
+  .ease-in { 
+      transition-timing-function: cubic-bezier(.4,0,1,1);
+  } 
+  
+  .ease-in { 
+      animation-timing-function: cubic-bezier(.4,0,1,1);
+  } 
+  
+  .hover\:border-l-\[2px\]:hover { 
+      border-left-width: 2px;
+  } 
+  
+  .hover\:border-blue-600:hover { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(37 99 235/var(--tw-border-opacity));
+  } 
+  
+  .hover\:bg-zinc-900:hover { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(24 24 27/var(--tw-bg-opacity));
+  } 
+  
+  .border-blue-600 { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(37 99 235/var(--tw-border-opacity));
+  } 
+  
+  .bg-zinc-900 { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(24 24 27/var(--tw-bg-opacity));
+  } 
+  
+  h1 { 
+      font-size: inherit; 
+      font-weight: inherit;
+  } 
+  
+  h1 { 
+      margin: 0;
+  } 
+  
+  .font-\[400\] { 
+      font-weight: 400;
+  } 
+  
+  .text-zinc-200 { 
+      --tw-text-opacity: 1; 
+      color: rgb(228 228 231/var(--tw-text-opacity));
+  } 
+  
+  .overflow-hidden { 
+      overflow: hidden;
+  } 
+  
+  .cursor-pointer { 
+      cursor: pointer;
+  } 
+  
+  .text-zinc-500 { 
+      --tw-text-opacity: 1; 
+      color: rgb(113 113 122/var(--tw-text-opacity));
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-Y62iA.style-Y62iA {  
+     color: transparent;  
+  }  
+  #style-YNvMD.style-YNvMD {  
+     color: transparent;  
+  }  
+  #style-KmN4P.style-KmN4P {  
+     transform: none;  
+  }  
+  #style-NSx5Z.style-NSx5Z {  
+     color: transparent;  
+      filter: invert(100%) brightness(1000%) contrast(100%);  
+  }  
+  #style-NzxNB.style-NzxNB {  
+     transform: none;  
+  }  
+  #style-etGOp.style-etGOp {  
+     color: transparent;  
+  }  
+  #style-IScC1.style-IScC1 {  
+     transform: none;  
+  }  
+  #style-hVSHR.style-hVSHR {  
+     color: transparent;  
+  }  
+  #style-F76e8.style-F76e8 {  
+     transform: none;  
+  }  
+  #style-ye5qF.style-ye5qF {  
+     color: transparent;  
+  }  
+  #style-ffdw9.style-ffdw9 {  
+     transform: none;  
+  }  
+  #style-kzN8h.style-kzN8h {  
+     color: transparent;  
+  }  
+  #style-GH3mz.style-GH3mz {  
+     transform: none;  
+  }  
+  #style-Slx6m.style-Slx6m {  
+     color: transparent;  
+  }  
+  #style-ZPAXG.style-ZPAXG {  
+     transform: none;  
+  }  
+  #style-15AHb.style-15AHb {  
+     color: transparent;  
+  }  
+  #style-qxTCQ.style-qxTCQ {  
+     transform: none;  
+  }  
+  

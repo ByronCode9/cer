@@ -1,0 +1,400 @@
+@font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/685a86e3efd026cd-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:900;
+    font-style:black;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/04ca08d0bf127403-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:700;
+    font-style:bold;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/6c3b16f6d0ef383f-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:500;
+    font-style:medium;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/333ab73b5541c2f6-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__satoshi_a12bc8;
+    src:url(https://app.aiaegis.org/_next/static/media/54d173f197c29d93-s.p.otf) format("opentype");
+    font-display:swap;
+    font-weight:300;
+    font-style:light;
+  } 
+  @font-face { 
+    font-family:__satoshi_Fallback_a12bc8;
+    src:local("Arial");
+    ascent-override:102.23%;
+    descent-override:24.29%;
+    line-gap-override:10.12%;
+    size-adjust:98.80%;
+  } 
+    body {  
+      line-height:inherit;
+      font-family:__satoshi_a12bc8,__satoshi_Fallback_a12bc8;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --tw-text-opacity:  1;  
+      --tw-border-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-space-y-reverse:  0;  
+      --tw-text-opacity:  1;  
+      --tw-border-opacity:  1;  
+      --tw-border-opacity:  1;  
+      --tw-bg-opacity:  1;  
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  .flex { 
+      display: flex;
+  } 
+  
+  .w-full { 
+      width: 100%;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal; 
+      font-variation-settings: normal;
+  } 
+  
+  .flex-1 { 
+      flex: 1 1 0%;
+  } 
+  
+  .items-center { 
+      align-items: center;
+  } 
+  
+  .justify-center { 
+      justify-content: center;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  .max-w-xs { 
+      max-width: 20rem;
+  } 
+  
+  .w-\[20rem\] { 
+      width: 20rem;
+  } 
+  
+  @media (min-width: 768px){ 
+    .md\:w-\[22rem\] { 
+      width: 22rem;
+    } 
+  }     
+  
+  .mb-8 { 
+      margin-bottom: 2rem;
+  } 
+  
+  .h-\[90\%\] { 
+      height: 90%;
+  } 
+  
+  .flex-col { 
+      flex-direction: column;
+  } 
+  
+  .px-\[10px\] { 
+      padding-left: 10px; 
+      padding-right: 10px;
+  } 
+  
+  .mt-auto { 
+      margin-top: auto;
+  } 
+  
+  .pb-4 { 
+      padding-bottom: 1rem;
+  } 
+  
+  .pt-12 { 
+      padding-top: 3rem;
+  } 
+  
+  .text-center { 
+      text-align: center;
+  } 
+  
+  .text-zinc-300 { 
+      --tw-text-opacity: 1; 
+      color: rgb(212 212 216/var(--tw-text-opacity));
+  } 
+  
+  .mb-3 { 
+      margin-bottom: .75rem;
+  } 
+  
+  .w-fit { 
+      width: -moz-fit-content; 
+      width: fit-content;
+  } 
+  
+  .rounded-md { 
+      border-radius: .375rem;
+  } 
+  
+  .border { 
+      border-width: 1px;
+  } 
+  
+  .border-\[\#27272A\] { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(39 39 42/var(--tw-border-opacity));
+  } 
+  
+  .p-4 { 
+      padding: 1rem;
+  } 
+  
+  h1 { 
+      font-size: inherit; 
+      font-weight: inherit;
+  } 
+  
+  h1 { 
+      margin: 0;
+  } 
+  
+  .text-\[24px\] { 
+      font-size: 24px;
+  } 
+  
+  .font-\[600\] { 
+      font-weight: 600;
+  } 
+  
+  .leading-\[48px\] { 
+      line-height: 48px;
+  } 
+  
+  .text-\[\#FFFFFF\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(255 255 255/var(--tw-text-opacity));
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  .text-\[14px\] { 
+      font-size: 14px;
+  } 
+  
+  .font-\[400\] { 
+      font-weight: 400;
+  } 
+  
+  .leading-\[24px\] { 
+      line-height: 24px;
+  } 
+  
+  .text-\[\#A6A6A6\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(166 166 166/var(--tw-text-opacity));
+  } 
+  
+  button { 
+      font-family: inherit; 
+      font-feature-settings: inherit; 
+      font-variation-settings: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      cursor: pointer;
+  } 
+  
+  [type="submit"],button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  .mt-7 { 
+      margin-top: 1.75rem;
+  } 
+  
+  .inline-flex { 
+      display: inline-flex;
+  } 
+  
+  .h-10 { 
+      height: 2.5rem;
+  } 
+  
+  .bg-zinc-900 { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(24 24 27/var(--tw-bg-opacity));
+  } 
+  
+  .px-4 { 
+      padding-left: 1rem; 
+      padding-right: 1rem;
+  } 
+  
+  .py-2 { 
+      padding-top: .5rem; 
+      padding-bottom: .5rem;
+  } 
+  
+  .text-sm { 
+      font-size: .875rem; 
+      line-height: 1.25rem;
+  } 
+  
+  .font-medium { 
+      font-weight: 500;
+  } 
+  
+  .text-zinc-50 { 
+      --tw-text-opacity: 1; 
+      color: rgb(250 250 250/var(--tw-text-opacity));
+  } 
+  
+  .transition-colors { 
+      transition-property: color,background-color,border-color,text-decoration-color,fill,stroke; 
+      transition-timing-function: cubic-bezier(.4,0,.2,1); 
+      transition-duration: .15s;
+  } 
+  
+  :is(.dark .dark\:bg-zinc-50) { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(250 250 250/var(--tw-bg-opacity));
+  } 
+  
+  :is(.dark .dark\:text-zinc-900) { 
+      --tw-text-opacity: 1; 
+      color: rgb(24 24 27/var(--tw-text-opacity));
+  } 
+  
+  .hover\:bg-zinc-900\/90:hover { 
+      background-color: rgba(24,24,27,.9);
+  } 
+  
+  :is(.dark .dark\:hover\:bg-zinc-50\/90:hover) { 
+      background-color: hsla(0,0%,98%,.9);
+  } 
+  
+  a { 
+      color: inherit; 
+      text-decoration: inherit;
+  } 
+  
+  .text-\[\#0E76FD\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(14 118 253/var(--tw-text-opacity));
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  .space-y-2 > :not([hidden]) ~ :not([hidden])  { 
+      --tw-space-y-reverse: 0; 
+      margin-top: calc(.5rem * calc(1 - var(--tw-space-y-reverse))); 
+      margin-bottom: calc(.5rem * var(--tw-space-y-reverse));
+  } 
+  
+  .leading-none { 
+      line-height: 1;
+  } 
+  
+  .text-white { 
+      --tw-text-opacity: 1; 
+      color: rgb(255 255 255/var(--tw-text-opacity));
+  } 
+  
+  input { 
+      font-family: inherit; 
+      font-feature-settings: inherit; 
+      font-variation-settings: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  .rounded-none { 
+      border-radius: 0;
+  } 
+  
+  .border-zinc-800 { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(39 39 42/var(--tw-border-opacity));
+  } 
+  
+  .px-3 { 
+      padding-left: .75rem; 
+      padding-right: .75rem;
+  } 
+  
+  :is(.dark .dark\:border-zinc-800) { 
+      --tw-border-opacity: 1; 
+      border-color: rgb(39 39 42/var(--tw-border-opacity));
+  } 
+  
+  :is(.dark .dark\:bg-zinc-950) { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(9 9 11/var(--tw-bg-opacity));
+  } 
+  
+  
+  
